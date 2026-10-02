@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "node init && docusaurus start",
+    "build": "node init && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -35,7 +35,7 @@
     "react-dom": "^19.0.0",
     "sharp": "^0.35.0",
     "turndown": "^7.2.2",
-    "vercel": "^61.1.0"
+    "vercel": "^62.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.2",

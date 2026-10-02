@@ -118,7 +118,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -148,7 +147,6 @@ dmypy.json
 .idea
 
 # VSCode
-.vscode
 
 # haystack files
 haystack/document_store/qa.db
@@ -176,3 +174,5 @@ haystack/json-schemas
 
 # uv
 uv.lock
+config.bat
+node_modules
